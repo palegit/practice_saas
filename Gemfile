@@ -22,6 +22,8 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
+#Use font-awesome for styling
+gem "font-awesome-rails", "4.2.0"
 
 #Use Bootstrap library for styles
 gem 'bootstrap-sass', '~> 3.3.4'
