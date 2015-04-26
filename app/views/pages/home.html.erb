@@ -2,3 +2,20 @@
   <h2>Welcome to Dev Match</h2>
   <h3>A site where Morta</h3>
 </div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="well">
+      <h2 class="text-center">Basic Membership</h2>
+      <h4>Get cebula membership</h4>
+      <%= link_to "Sing in for Free", new_user_registration_path(plan: @lite_plan.id), class: "btn btn-primary btn-lg btn-block" %>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="well">
+      <h2 class="text-center">Pro Membership</h2>
+      <h4>Get pro elo membership</h4>
+      <%= link_to "Sign in with Pro Membership", new_user_registration_path(plan: @pro_plan.id), class: "btn btn-success btn-lg btn-block" %>
+    </div>
+  </div>
+</div>
